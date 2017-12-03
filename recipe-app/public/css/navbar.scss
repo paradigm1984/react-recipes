@@ -1,0 +1,59 @@
+
+.nav-bar {
+  background-color: #2C3E50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 2px 15px;
+  margin: -10px -8px 0px -8px;
+
+  .nav-bar h1 {
+    text-align: center;
+  }
+
+  .nav-link {
+    list-style: none;
+    margin-left: 10px;
+  }
+
+  .nav-bar a {
+    text-decoration: none;
+    color: inherit;
+    cursor: crosshair;
+    opacity: 0.9;
+  }
+
+  .nav-bar a:hover {
+    opacity: 1;
+  }
+
+  .link-container {
+    display: flex;
+  }
+
+  // targeting the first li in the hav thats in the header
+  .nav-bar nav li:first-child {
+    margin-left: 0;
+  }
+
+  .nav-bar nav li:last-child {
+    margin-right: 0;
+  }
+}
+
+@media(max-width: 700px) {
+  .nav-bar {
+    padding: 20px 50px;
+  }
+}
+
+@media(max-width: 700px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  .nav-bar h2 {
+    margin-bottom: 15px;
+  }
+}

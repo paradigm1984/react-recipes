@@ -1,0 +1,38 @@
+$tan: #FAF3DD;
+$greenTan: #C8D5B9;
+$forestGreen: #617B54;
+$teal: #427C6D;
+$lightTeal: #8FC0A9;
+// font-family: 'Roboto', sans-serif;
+
+// === General Styles === //
+body {
+  background: #ECF0F1;
+}
+
+h1, h2, h3, h4, h5, p, li, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 10px 0 5px 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+ul {
+  margin: 2% auto;
+  padding: 0;
+}
+
+// == Modules == //
+@import "recipe.scss";
+@import "navbar.scss";
+@import "recipelist.scss";
